@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Aritmeticke operacije</title>
+</head>
+
+<body>
+    <h1>Program za obavljanje osnovnih aritmetickih operacija</h1>
+    <div class="container">
+        <div>
+            <label for="broj1">Unesite prvi broj</label>
+            <input type="number" placeholder="Prvi broj" id="broj1">
+        </div>
+        <div>
+            <label for="operacija">Odaberite operaciju</label>
+            <select name="operacija" id="operacija">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+        <div>
+            <label for="broj2">Unesite drugi broj</label>
+            <input type="number" placeholder="Drugi broj" id="broj2">
+        </div>
+    </div>
+
+    <h1 id="rez">REZULTAT: <span id="rezultat"></span></h1>
+
+    <button class="none" onclick="obrisi()">OBRIŠI</button>
+    <script src="main.js"></script>
+</body>
+
+</html>

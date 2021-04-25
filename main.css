@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container>div {
+    font-size: 22px;
+    margin: 30px 10px;
+}
+
+input,
+select {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 50px;
+    color: wheat;
+    background-color: rgb(25, 0, 255);
+    outline: none;
+    border: none;
+}
+
+#rez {
+    margin: 50px;
+}
+
+#rezultat {
+    text-shadow: 1px 2px 2px rgba(255, 0, 0, 0.5);
+    font-size: 42px;
+}
+
+.none {
+    display: none;
+}
